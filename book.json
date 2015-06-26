@@ -1,8 +1,8 @@
 {
-    "name": "Drupal Media Handbook",
+    "name": "Drupal 8 Media Guide",
     "description": "Definitive guide on how to integrate and develop with Drupal Media.",
     "repository": {
         "type": "git",
-        "url": "https://github.com/drupal-media/handbook"
+        "url": "https://github.com/drupal-media/d8-guide"
     }
 }
