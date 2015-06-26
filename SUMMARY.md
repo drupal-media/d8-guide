@@ -4,4 +4,12 @@
 * Contributing
 * Browsing
 * Embedding
-* Other Module
+* Modules
+  * Entity Browser
+  * Embed API
+  * Entity Embed
+  * URL Embed
+  * File Entity
+  * Media Entity
+  * Crop API
+  * Fallback Formatter
