@@ -12,7 +12,7 @@
     * [WYSIWYG configuration](entity_embed/formats.md)
     * [Embedding an entity using WYSIWYG](entity_embed/wysiwyg.md)
     * [Integrations](entity_embed/INTEGRATION.md)
-      * [&lt;drupal-entity&gt; HTML tag specification](entity_embed/tag_specification.md)
+      * [`<drupal-entity>` HTML tag specification](entity_embed/tag_specification.md)
       * [Additional data attributes](entity_embed/data_attributes.md)
       * [Developing display plugins](entity_embed/display_plugins.md)
   * URL Embed
