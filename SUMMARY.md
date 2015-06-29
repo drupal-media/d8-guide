@@ -11,10 +11,11 @@
     * [Button configuration](entity_embed/button.md)
     * [WYSIWYG configuration](entity_embed/formats.md)
     * [Embedding an entity using WYSIWYG](entity_embed/wysiwyg.md)
-    * [Integrations](entity_embed/INTEGRATION.md)
-      * [`<drupal-entity>` HTML tag specification](entity_embed/tag_specification.md)
+    * [`<drupal-entity>` HTML tag specification](entity_embed/tag_specification.md)
+    * [Extending](entity_embed/INTEGRATION.md)
+      * [Events and hooks](entity_embed/events_hooks.md)
       * [Custom data attributes](entity_embed/data_attributes.md)
-      * [Developing display plugins](entity_embed/display_plugins.md)
+      * [Display plugins](entity_embed/display_plugins.md)
   * URL Embed
   * File Entity
   * Media Entity
