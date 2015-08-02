@@ -2,6 +2,10 @@
 
 * [Media Documentation](README.md)
 * Contributing
+* Drupal 8 Core
+  * File and Image Fields
+  * WYSIWYG
+  * Limitations
 * Browsing
 * Embedding
 * Modules
