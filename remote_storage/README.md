@@ -13,9 +13,9 @@ In Drupal 7,  modules like [Storage API] (https://www.drupal.org/project/storage
 
 Flysystem
 ---------------------------------------
-The [Flysystem] (https//www.drupal.org/project/flysystem) module is the first remote storage solution to be available for Drupal 8 (and it's also recently available in D7). It uses the [Flysystem PHP library] (http://flysystem.thephpleague.com/), a modern filesystem abstraction designed to allow for the easy swapping of one filesystem with another. The Flysystem library is gaining widespread adoption in the PHP world, and is the default filesystem layer in the Laravel framework. Incorporating it in a Drupal project is an example of the "getting off the island" or "proudly invented elsewhere" philosophies often discussed for Drupal 8 - making use of the work done in the wider PHP community rather than struggling to reinvent everything from scratch.
+The [Flysystem] (https://www.drupal.org/project/flysystem) module is the first remote storage solution to be available for Drupal 8 (and it's also recently available in D7). It uses the [Flysystem PHP library] (http://flysystem.thephpleague.com/), a modern filesystem abstraction designed to allow for the easy swapping of one filesystem with another. The Flysystem library is gaining widespread adoption in the PHP world, and is the default filesystem layer in the Laravel framework. Incorporating it in a Drupal project is an example of the "getting off the island" or "proudly invented elsewhere" philosophies often discussed for Drupal 8 - making use of the work done in the wider PHP community rather than struggling to reinvent everything from scratch.
 
-Flysystem is made available in Drupal 8 by the [Flysystem module] (https//www.drupal.org/project/flysystem). Currently through its adapter modules it offers the following storage types:
+Flysystem is made available in Drupal 8 by the [Flysystem module] (https://www.drupal.org/project/flysystem). Currently through its adapter modules it offers the following storage types:
 * Local
 * (s)FTP
 * ZIP
@@ -32,11 +32,11 @@ When joined with a flysystem adapter module, the flysystem module offers four th
 
 Simple remote storage with Flysystem
 -------------------------------------------------------------
-* Install Flysystem module and an adapter module e.g. Flysystem_dropbox
-![Flysystem modules](flysystem_modules.png)
+Firstly, install Flysystem module and an adapter module e.g. Flysystem_dropbox
 
-* Specify remote storage location in Drupal's settings.php
+Secondly, specify the remote storage location in Drupal's settings.php
 
+````
     $schemes = [
         'dropboxexample' => [
             'driver' => 'dropbox',
@@ -48,8 +48,10 @@ Simple remote storage with Flysystem
         ],
     ]
     $settings['flysystem'] = $schemes;
+````
 
 * Choose Flysystem location as the storage for a Drupal file field
+
 ![Flysystem storage for a file field](flysystem_filefield.png)
 
 If you upload a file in Drupal using that file field, it will then be stored on your remote location, not on the web server where Drupal runs.
