@@ -60,9 +60,9 @@ When the file field is rendered by Drupal (e.g. because the content or media ent
 
 Flysystem's file access control
 --------------------------------------------------
-Flysystem storage schemes works like private files in drupal 8.
+Flysystem storage works like private files in drupal 8. It restricts access to the original files and lets Drupal and its modules control access to the files.
 
-It hides the actual link of the to file and delivers it via a Drupal generated path. Thus it restricts access to the original files and let other modules provide access control to the file. 
+Instead of rendering a URL directly to a file at its location (e.g. https://mybucket.s3.amazonaws.com/myfile.mp3), it renders instead a URL on your webserver (e.g. http://mywebserver.com/system/files/myfile.mp3). Requests to this URL are intercepted by Drupal, which uses its standard and configurable access control logic to decide whether or not to return the file or an "Access denied" message. 
 
 By default when using a file field, anyone who can access the entity to which the file field is attached will be able to access the file at its URL. If they logout or have their permissions changed, they won't be able to access the file even if they made a copy of its URL.
 
