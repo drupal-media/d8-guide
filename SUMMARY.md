@@ -8,7 +8,7 @@
   * Limitations
 * Browsing
 * Embedding
-* [Remote storage] (remote_storage/README.md)
+* [Remote storage](remote_storage/README.md)
 * Modules
   * Entity Browser
   * Embed API
