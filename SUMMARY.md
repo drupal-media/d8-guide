@@ -3,12 +3,12 @@
 * [Media Documentation](README.md)
 * Contributing
 * Drupal 8 Core
+  * [File Systems](core/file-systems.md)
   * File and Image Fields
   * WYSIWYG
   * Limitations
 * Browsing
 * Embedding
-* [Remote storage](remote_storage/README.md)
 * Modules
   * Entity Browser
   * Embed API
@@ -26,3 +26,4 @@
   * Media Entity
   * Crop API
   * Fallback Formatter
+  * [Flysystem](modules/flysystem/README.md)
