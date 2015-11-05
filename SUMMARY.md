@@ -10,7 +10,14 @@
 * Browsing
 * Embedding
 * Modules
-  * Entity Browser
+  * [Entity Browser](modules/entity_browser/intro.md)
+    * [Architecture](modules/entity_browser/architecture.md)
+    * [Displays](modules/entity_browser/displays.md)
+    * [Widgets](modules/entity_browser/widgets.md)
+    * [Selection displays](modules/entity_browser/selection_displays.md)
+    * [Widget Selectors](modules/entity_browser/widget_selectors.md)
+    * [Configuration file structure](modules/entity_browser/configuration.md)
+    * [Inline entity form integration](modules/entity_browser/inline_entity_form.md)
   * Embed API
   * [Entity Embed](entity_embed/README.md)
     * [Button configuration](entity_embed/button.md)
