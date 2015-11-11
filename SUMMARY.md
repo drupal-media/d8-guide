@@ -30,6 +30,7 @@
       * [Display plugins](entity_embed/display_plugins.md)
   * URL Embed
   * File Entity
+  * [File Entity Browser](modules/file_browser/README.md)
   * Media Entity
   * Crop API
   * Fallback Formatter
