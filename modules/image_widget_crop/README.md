@@ -53,6 +53,7 @@ You can Test ImageWidgetCrop in action directly with the sub-module, "ImageWidge
   ![Step 15](images/step_15.png)
 6. Add an image with your widget to your content and crop your picture, by crop types used for this image
   ![Step 16](images/step_16.png)
+  ![Step 17](images/step_17.png)
   
 ## ImageWidgetCrop Code Quality
 
