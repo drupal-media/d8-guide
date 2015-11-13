@@ -33,5 +33,6 @@
   * [File Entity Browser](modules/file_browser/README.md)
   * Media Entity
   * Crop API
+  * [ImageWidgetCrop](modules/image_widget_crop/README.md)
   * Fallback Formatter
   * [Flysystem](modules/flysystem/README.md)
