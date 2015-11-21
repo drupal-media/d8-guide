@@ -31,7 +31,13 @@
   * URL Embed
   * File Entity
   * [File Entity Browser](modules/file_browser/README.md)
-  * Media Entity
+  * [Media Entity](modules/media_entity/intro.md)
+    * [Image](modules/media_entity/image.md)
+    * [Audio](modules/media_entity/audio.md)
+    * [Slideshow](modules/media_entity/slideshow.md)
+    * [Embedable video](modules/media_entity/embeddable_video.md)
+    * [Twitter](modules/media_entity/twitter.md)
+    * [Instagram](modules/media_entity/instagram.md)
   * Crop API
   * [ImageWidgetCrop](modules/image_widget_crop/README.md)
   * Fallback Formatter
