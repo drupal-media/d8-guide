@@ -11,11 +11,7 @@ Diagram shows basic architecture of Crop.
 - **CropType** CropType is bundle for Crop entity.
 
 ###Plugin
-- **CropEffect** Crop effect is an image style effect. He apply your crop area into image with information of Crop entity.
-
-This diagram shows how specifically Crop Image Effect (Manual crop) get informations of corresponding image ressource and apply different effect.
-
-![Manual Crop Effect](images/architecture_of_manual_crop.png)
+- **CropEffect** It applies crop to the image using information from the crop entity.
 
 The effect "Manual Crop Effect" recover the crop has an image associated with two parameters "uri" & "crop_type".
 
@@ -31,10 +27,7 @@ See [Crop API support multiple issue] for more information.
 
 ## Focus on properties of crop entity
 
-When creating an CROP entity must send a series of properties that will be used for the purposes of the crop area by imageStyle or for the recovery data link to this entity.
-It is important to identify the different elements before Crop API needs to properly render the crop area with good dimmensions.
-
-We will each properties listed on entity Crop :
+Base field of crop entity explained:
 
 - **type** This is the machine name of the corresponding crop type use by this entity, it works exactly as "Node" and "NodeType".
 - **entity_id** ID of the entity crop relates to. "fid" when entity is a file.
@@ -44,4 +37,3 @@ We will each properties listed on entity Crop :
 - **y** Position of top left corner of the crop area on y-axis.
 - **width** Width of the crop area.
 - **height** Height of the crop area.
-- **image_style** This is the machine name of the related ImageStyle, it is an optional parameter because nothing really checks at the recovery of the crop with this parameter.

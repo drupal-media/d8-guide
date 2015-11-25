@@ -1,6 +1,5 @@
 # Entity browser
 
-The Crop api provides storage for all cropping solution. Is able to handle crops based on region and focal point concepts. Also comes with some very basic image effects.
 The [Entity browser](https://drupal.org/project/entity_browser) module provides a very flexible and generic entity browsing and selecting tool. It can be used in any context where one needs to select any number of entities and do something with them.
 
 Examples of few possible use cases:
