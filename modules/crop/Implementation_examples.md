@@ -1,9 +1,7 @@
 # Implementation Example
 
-Create
-------
-
-This code show an example to create an crop entity and set all positions.
+## Create
+This code shows how to create a crop entity and set all positions.
 
 ```
 $values = [
@@ -24,10 +22,8 @@ $crop = \Drupal::service->get('entity.manager')->getStorage('crop')->create($val
 $crop->save();
 ```
 
-Update
-------
-
-As CropAPI is an entity it is possible to modify the property taken entity via methods "->set()" & "->save()" for final registration. It is therefore quite possible to update a crop after having loaded a crop with "->loadByProperties()" as the example below.
+## Update
+Since Crop is an entity it is possible to modify it's properties using "->set()" & "->save()" methods.
 
 ```
 /** @var \Drupal\crop\CropInterface $crop */
@@ -42,10 +38,8 @@ $crop = \Drupal::service->get('entity.manager')
 $crop->set($field_key, $value, TRUE)->save();
 ```
 
-Delete
-------
-
-From the same manner as for the case "Update" you can delete the entity.
+## Delete
+Crop can be deleted using standard Entity API function.
 
 ```
 /** @var \Drupal\crop\CropInterface $crop */
