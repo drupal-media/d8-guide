@@ -70,11 +70,13 @@ If you need just to embembed tweets you can use this module wihout using Twitter
    ![Step 15](images/twitter/step_15.png)
   * The Twitter post is displayed on the saved article page.
 
-**IMPORTANT:** beware that there is limit on the number of request that can be made for free. [Read more](https://dev.twitter.com/rest/public)
-
 ### With Twitter API
 
-If you need to get other fields, you will need to use Twitter's API. To get this working follow the steps below:
+If you need to get other fields, you will need to use Twitter's API. 
+
+**IMPORTANT:** beware that there is limit on the number of request that can be made for free. [Read more](https://dev.twitter.com/rest/public)
+
+To get this working follow the steps below:
 
 1. Download and enable [composer_manager](https://www.drupal.org/project/composer_manager)
 2. Run the module's init.php script on the command line (`php scripts/init.php` from inside the composer_manager module directory)
