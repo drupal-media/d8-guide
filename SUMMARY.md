@@ -43,4 +43,5 @@
     * [Implementation examples](modules/crop/Implementation_examples.md)
   * [ImageWidgetCrop](modules/image_widget_crop/README.md)
   * Fallback Formatter
+  * [Field formatter](modules/field_formatter/README.md)
   * [Flysystem](modules/flysystem/README.md)
