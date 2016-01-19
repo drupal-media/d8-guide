@@ -1,6 +1,6 @@
 # Image Effects
 
-The [Image Effects](https://www.drupal.org/project/image_effects) This module provides a suite of additional image effects that can be added to image styles, and UI components that can be used in the image effects configuration forms.
+The [Image Effects](https://www.drupal.org/project/image_effects) module provides a suite of additional image effects that can be added to image styles, and UI components that can be used in the image effects configuration forms.
 
 ## Effects provided:
 
