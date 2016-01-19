@@ -46,4 +46,5 @@
    * [Fallback Formatter]((modules/fallback_formatter/intro.md))
    * [Field formatter](modules/field_formatter/intro.md)
    * [Flysystem](modules/flysystem/intro.md)
+   * [Image Effects](modules/image_effects/intro.md)
 

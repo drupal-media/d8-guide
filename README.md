@@ -35,6 +35,7 @@ While not all of these components are complete you can still to a lot with what'
 * [Media Entity](modules/media_entity/intro.md)
 * [Media Pinkeye](modules/media_pinkeye/intro.md).
 * [URL Embed](modules/url_embed/intro.md).
+* [Image Effects](modules/image_effects/intro.md).
 
 
 ### Troubleshooting
