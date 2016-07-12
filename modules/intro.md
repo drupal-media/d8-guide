@@ -4,7 +4,7 @@ There is a substantial amount of media functionality available in Drupal 8 today
 
 ## D8 Core Functionality
 
-In Drupal 8 core, As in D7 core, there is out of the box support for files, images and basic media functionality. That said rich media experiences in Drupal are generally built using the contributed modules listed below.
+In Drupal 8 core, As in D7 core, there is out of the box support for files, images and basic media functionality. That said, rich media experiences in Drupal are generally built using the contributed modules listed below.
 
 
 ## D8 Contrib  Modules 
@@ -16,11 +16,11 @@ The modules are intended to be used together as needed in order to provide as ba
 
 ###D8 Media Storage Modules
 
-* [**File Entity:**](file_entity/intro.md) provides interfaces for storing and managing files, which extends core file entity e.g., allowing for file fields, types, display modes, etc. ([d.o](https://github.com/drupal-media/file_entity))
+* [**File Entity:**](file_entity/intro.md) provides interfaces for storing and managing files, which extends core file entity e.g., allowing for file fields, types, display modes, etc. ([d.o](https://www.drupal.org/project/file_entity))
  * *Latest Status:* TBA
 
 
-* [**Media Entity:**](media_entity/intro.md) an alternate approach to media storage in Drupal, which doesn't directly extend core file entity ([d.o](https://www.drupal.org/project/media_entity))
+* [**Media Entity:**](media_entity/intro.md) an alternate approach to media storage in Drupal, which doesn't directly extend core file entity, and creates a new entity type to be served as a base for other modules (providers) to build upon and define their own media types. ([d.o](https://www.drupal.org/project/media_entity))
  * *Latest Status:* TBA
 
 
@@ -28,37 +28,37 @@ The modules are intended to be used together as needed in order to provide as ba
  * *Latest Status:* TBA
 
 
-###D8 Media U/I Modules
+###D8 Media UI Modules
 
-* [**Crop API:**](crop/intro.md) an API for image cropping that is intended to be used with a related API module such as [Image Widget Crop]( https://www.drupal.org/sandbox/woprrr/2571403) ([d.o](https://www.drupal.org/project/crop))
+* [**Crop API:**](crop/intro.md) an API for image cropping that is intended to be used with a related API module such as [Image Widget Crop]( https://www.drupal.org/project/image_widget_crop) ([d.o](https://www.drupal.org/project/crop))
  * *Latest Status:* TBA
 
 
-* [**DropzoneJS:**](dropzonejs/intro.md) provides drag ’n’ drop file uploads with image previews ([d.o](https://www.drupal.org/project/dropzonejs))
+* [**DropzoneJS:**](dropzonejs/intro.md) provides "drag & drop" file uploads with image previews ([d.o](https://www.drupal.org/project/dropzonejs))
  * *Latest Status:* TBA
 
 
-* [**Embed API:**](embed/intro.md) a framework module to embed things using the Drupal 8 WYSIWYG editor ([d.o](https://www.drupal.org/project/dropzonejs))
+* [**Embed API:**](embed/intro.md) a framework module to embed things using the Drupal 8 WYSIWYG editor ([d.o](https://www.drupal.org/project/embed))
  * *Latest Status:* TBA
 
 
-* [**Entity Browser:**](entity_browser/intro.md) provide a generic browser that can be used for selecting file/media entities.
+* [**Entity Browser:**](entity_browser/intro.md) enables the creation of user-friendly browsers that can be used for selecting entities (file, image, media entities, etc). ([d.o](https://www.drupal.org/project/entity_browser))
  * *Latest Status:* TBA
 
 
-* [**Entity Embed:**](entity_embed/intro.md) allows any entity to be embedded within a text area using a WYSIWYG editor.
+* [**Entity Embed:**](entity_embed/intro.md) allows any entity to be embedded within a text area using a WYSIWYG editor. ([d.o](https://www.drupal.org/project/entity_embed))
  * *Latest Status:* TBA
 
 
-* [**File Entity Browser:**](file_browser/intro.md) provides a nice content creator/editor experience for uploading files (implementing [Dropzonejs](https://www.drupal.org/project/dropzonejs)) and browsing/selecting files (implementing [Entity Browser](modules/entity_browser/intro.md).
+* [**File Entity Browser:**](file_browser/intro.md) provides a nice content creator/editor experience for uploading files (implementing [Dropzonejs](https://www.drupal.org/project/dropzonejs)) and browsing/selecting files (implementing [Entity Browser](modules/entity_browser/intro.md)). ([d.o](https://www.drupal.org/project/file_browser))
  * *Latest Status:* TBA
 
 
-* [**Image Widget Crop:**](image_widget_crop/intro.md) provides an interface for using the features of the [Crop API](https://www.drupal.org/project/crop) ([d.o](https://www.drupal.org/sandbox/woprrr/2571403))
+* [**Image Widget Crop:**](image_widget_crop/intro.md) provides an interface for using the features of the [Crop API](https://www.drupal.org/project/crop) ([d.o](https://www.drupal.org/project/image_widget_crop))
  * *Latest Status:* TBA
 
 
-* [**URL Embed:**](url_embed/intro.md) allows embedding of URLs using the Drupal 8 WYSIWYG or link fields ([d.o](https://www.drupal.org/project/url_embed))
+* [**URL Embed:**](url_embed/intro.md) allows embedding of external URLs using the Drupal 8 WYSIWYG or link fields ([d.o](https://www.drupal.org/project/url_embed))
  * *Latest Status:* TBA
 
 
@@ -68,7 +68,7 @@ The modules are intended to be used together as needed in order to provide as ba
  * *Latest Status:* TBA
 
  
-* [**Field Formatter:**](field_formatter/intro.md) a field formatter that attempts multiple formatters for displaying file and applies the first one that returns output ([d.o](https://www.drupal.org/project/field_formatter))
+* [**Field Formatter:**](field_formatter/intro.md) provides a field formatter that can attempt multiple formatters and the first one that returns output wins. ([d.o](https://www.drupal.org/project/field_formatter))
  * *Latest Status:* TBA
 
 

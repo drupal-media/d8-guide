@@ -4,13 +4,13 @@
 * [Roadmap](roadmap.md)
 * [Status](status.md)
 * [Contributing](contributing.md)
-* Drupal 8 Core
+* [Drupal 8 Core](core/file-systems.md)
    * [File Systems](core/file-systems.md)
-   * File and Image Fields
-   * WYSIWYG
-   * Limitations
-* Browsing
-* Embedding
+   * [File and Image Fields](core/file_and_image.md)
+   * [WYSIWYG](core/wysiwyg.md)
+   * [Limitations](core/limitations.md)
+* [Browsing](browsing.md)
+* [Embedding](embedding.md)
 * [Modules](modules/intro.md)
    * [Entity Browser](modules/entity_browser/intro.md)
        * [Architecture](modules/entity_browser/architecture.md)
