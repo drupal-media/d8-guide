@@ -1,8 +1,6 @@
 # Configuration file structure
 
-Entity browsers are configuration entities that can be created either by the site builder on the UI or imported from YAML configuration files.
-
-To create a new browser go to /admin/config/content/entity_browser and click on "Add Entity Browser". Follow the wizard according to your preferences through all the steps of the creation process.
+Entity browsers are configuration entities that can be created [either by the site builder on the UI](modules/entity_browser/creating_browser_through_ui.md) or imported from YAML configuration files.
 
 If you are using a module that provides default or example configuration, these will be in the .yml files and will have the following structure (example entity_browser.browser.field_files.yml from the example module): 
 
@@ -38,14 +36,15 @@ widgets:
 
 ```
 
-Above configuration defines an entity browser that:
+The above configuration defines an entity browser that:
 - is displayed in an iFrame 650px by 500px in size, 
-- is displayed when user clicks on "Select entities" link, 
+- is displayed when the user clicks on "Select entities" link, 
 - has no selection display,
 - displays widgets as tabs,
 - comes with two widgets:
-  # file upload widget that upload files in public:// directory,
-  # view browsing/selection widget that uses "entity_browser_1" display of "files_entity_browser" view.
+  - a "file upload" widget that uploads files in the public:// directory,
+  - a "view" browsing/selection widget that uses the display "entity_browser_1" of the view  "files_entity_browser".
+
 
 - **name:** Unique machine name.
 - **label:** Human readable name.

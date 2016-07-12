@@ -18,6 +18,7 @@
        * [Widgets](modules/entity_browser/widgets.md)
        * [Selection displays](modules/entity_browser/selection_displays.md)
        * [Widget Selectors](modules/entity_browser/widget_selectors.md)
+       * [Creating a browser trough the UI](modules/entity_browser/creating_browser_through_ui.md)
        * [Configuration file structure](modules/entity_browser/configuration.md)
        * [Inline entity form integration](modules/entity_browser/inline_entity_form.md)
    * [DropzoneJS](modules/dropzonejs/intro.md)

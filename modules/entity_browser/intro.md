@@ -1,15 +1,15 @@
-# Entity browser
+# Entity Browser
 
-The [Entity browser](https://drupal.org/project/entity_browser) module provides a very flexible and generic entity browsing and selecting tool. It can be used in any context where one needs to select any number of entities and do something with them.
+The [Entity Browser](https://drupal.org/project/entity_browser) module provides a very flexible and generic entity browsing and selecting tool. It can be used in any context where one needs to select any number of entities and do something with them.
 
 Examples of few possible use cases:
-- powerfull entity reference widget,
-- embedding entities into wysiwyg,
-- you name it
+- powerful entity reference widget,
+- embedding entities into WYSIWYG,
+- you name it!
 
-Entity browser comes with an example module (modules/example in main repo) which can be used as a starting point. It comes with some example configuration and shows how Entity browser can be used as a field widget for Entity reference fields.
+Entity Browser comes with an example module (modules/example in main repo) which can be used as a starting point. It comes with some example configuration and shows how Entity Browser can be used as a field widget for Entity Reference fields.
 
-There is also [File entity browser](https://drupal.org/project/file_browser) module that uses Entity browser to provide nice content creation experience and re-usability of core files.
+If your need is to work only with images/files, you might want to check out also the module [File Entity Browser](https://drupal.org/project/file_browser), that uses Entity Browser to provide nice content creation experiences and re-usability of core files/images.
 
 ## Development 
 
