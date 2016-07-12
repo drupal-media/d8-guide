@@ -18,7 +18,7 @@ The Drupal Media team is actively seeking contributions and new team members. Th
 
 ##Using this Guide
 
-As mentioned above, Media for Drupal 8 is undergoing a re-architecture into individual components. For example, the Media Browser functionality is being developed into the Entity Browser module and embedding media in WYSIWYG is being developed into the Entity Embed module.
+As mentioned above, Media for Drupal 8 is undergoing a re-architecture into individual components. For example, the Media Browser functionality is being developed into the **Entity Browser** module and embedding media in WYSIWYG is being developed into the **Entity Embed** module.
 
 While not all of these components are complete you can still do a lot with what's done. This Guide includes a [Module Status](status.md) section which provide an overview of the ecosystem, and then more detailed guides for each of the available modules:
 
@@ -31,11 +31,11 @@ While not all of these components are complete you can still do a lot with what'
 * [Field Formatter](modules/field_formatter/intro.md)
 * [File Entity](modules/file_entity/intro.md)
 * [Flysystem](modules/flysystem/intro.md)
+* [Image Effects](modules/image_effects/intro.md)
 * [Image Widget Crop](modules/image_widget_crop/intro.md)
 * [Media Entity](modules/media_entity/intro.md)
 * [Media Pinkeye](modules/media_pinkeye/intro.md)
 * [URL Embed](modules/url_embed/intro.md)
-* [Image Effects](modules/image_effects/intro.md)
 
 
 ### Troubleshooting

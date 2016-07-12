@@ -1,8 +1,9 @@
 # Summary
 
 * [Media Documentation](README.md)
-* [Contributing](contributing.md)
 * [Roadmap](roadmap.md)
+* [Status](status.md)
+* [Contributing](contributing.md)
 * Drupal 8 Core
    * [File Systems](core/file-systems.md)
    * File and Image Fields
@@ -10,7 +11,7 @@
    * Limitations
 * Browsing
 * Embedding
-* [Modules])(modules/intro.md)
+* [Modules](modules/intro.md)
    * [Entity Browser](modules/entity_browser/intro.md)
        * [Architecture](modules/entity_browser/architecture.md)
        * [Displays](modules/entity_browser/displays.md)
