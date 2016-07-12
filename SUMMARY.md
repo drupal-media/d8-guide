@@ -2,6 +2,7 @@
 
 * [Media Documentation](README.md)
 * [Contributing](contributing.md)
+* [Roadmap](roadmap.md)
 * Drupal 8 Core
    * [File Systems](core/file-systems.md)
    * File and Image Fields
