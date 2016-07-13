@@ -9,7 +9,21 @@ Examples of few possible use cases:
 
 Entity Browser comes with an example module (modules/example in main repo) which can be used as a starting point. It comes with some example configuration and shows how Entity Browser can be used as a field widget for Entity Reference fields.
 
-If your need is to work only with images/files, you might want to check out also the module [File Entity Browser](https://drupal.org/project/file_browser), that uses Entity Browser to provide nice content creation experiences and re-usability of core files/images.
+Other good examples or modules that showcase what you can do with the Entity Browser concept are:
+
+### File Entity Browser
+
+If your need is to work only with images/files, the module [File Entity Browser](https://drupal.org/project/file_browser) is a very good starting point to get up and running with Entity Browser to provide nice content creation experiences and re-usability of core files/images. It also allows you to bulk upload images using a Drag & Drop zone, using the [dropzonejs](../dropzonejs/intro.md) library.
+
+### Content Browser
+
+Similarly to the previous example, the [Content Browser](https://drupal.org/project/content_browser) module is intended to be a tool for selecting nodes on your site, and provides out of the box a nicely configured browser with some theming and fine-tuning.
+
+### Lightning
+
+One level beyond, the [lightning](https://www.drupal.org/project/lightning) is a full Drupal distribution that aims to create great editorial / authoring experiences, and makes an extensive use of Entity Browser and its possible integrations.
+
+
 
 ## Development 
 

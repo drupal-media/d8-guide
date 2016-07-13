@@ -6,7 +6,7 @@ Entity Browser integrates with the module [Inline Entity Form](https://drupal.or
 
 Entity Browser comes with an **"Entity form"** widget that uses the **"Inline Entity Form"** form element to build entity creation forms. This allows users to create new entities of any type from inside of an arbitrary entity browser.
 
-To configure this option, [follow the previous instructions](modules/entity_browser/creating_browser_through_ui.md) to create an Entity Browser (or modify an existing one provided by an example module), and configure the widget (last step) the following way:
+To configure this option, [follow the previous instructions](creating_browser_through_ui.md) to create an Entity Browser (or modify an existing one provided by an example module), and configure the widget (last step) the following way:
 
 1- Go to the Widget step on the multi-setp wizard, which will be at the URL:
 ```/admin/config/content/entity_browser/{your_browser_name}/widgets?js=nojs ```
@@ -41,4 +41,4 @@ To configure this option, please follow these steps:
 
   Make sure you have the option **"Alow users to add existing {entity_type}"**.
   
-4- Select on the dropdown **"Entity Browser"** the browser you want to use as a browsing widget. Note that at this point you will need to have previously created a browser. If you don't have any browser created yet, please refer to the [instructions on creating one](modules/entity_browser/creating_browser_through_ui.md).
+4- Select on the dropdown **"Entity Browser"** the browser you want to use as a browsing widget. Note that at this point you will need to have previously created a browser. If you don't have any browser created yet, please refer to the [instructions on creating one](creating_browser_through_ui.md).
