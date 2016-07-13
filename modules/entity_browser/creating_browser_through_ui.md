@@ -4,4 +4,4 @@ To create a new browser go to ```/admin/config/content/entity_browser``` and cli
 
 This section of the Media Guide needs to be completed.
 
-See our [Contributing](../contributing.md) section of the Guide to find out how to get involved and help out.
+See our [Contributing](../../contributing.md) section of the Guide to find out how to get involved and help out.

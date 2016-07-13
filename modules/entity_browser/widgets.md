@@ -2,7 +2,7 @@
 
 **Widget** plugins represent the main functionality of the Entity Browser, providing a tool for the end user to browse/view/create/select the specific content he/she is looking for. 
 
-The [Entity Browser](https//drupal.org/project/entity_browser) base module provides a set of widget plugins, and contrib / custom modules can extend this list providing additional widgets.
+The [Entity Browser](https://drupal.org/project/entity_browser) base module provides a set of widget plugins, and contrib / custom modules can extend this list providing additional widgets.
 
 The widgets available on the Entity Browser module out of the box are:
 
