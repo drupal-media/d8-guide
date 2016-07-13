@@ -4,7 +4,7 @@ The **Widget selector** plugins define how multiple widgets of the same Entity B
 
 For example, a site builder could create an Entity Browser containing 2 widgets: "Media Gallery" (a view) and "Create new media" (an entity form), and the mechanism to change between these two widgets is defined in the **widget selector** plugin configuration.
 
-The [Entity Browser](https://drupal.org/project/entity_browser) base module define the following **widget selector** plugins:
+The [Entity Browser](https://drupal.org/project/entity_browser) base module defines the following **widget selector** plugins:
 
 
 ### Dropdown
