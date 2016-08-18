@@ -74,9 +74,12 @@ The modules are intended to be used together as needed in order to provide as ba
 
 ###D8 Media Feature Modules
 
+* **[Media:](media/intro.md)** full featured media module for Drupal 8 which depends on other D8 modules to provide functionality. This module comes with lot of configuration files to provide most of the basic features.
+ * *Latest Status:* Alpha
+
+
 * [**Media Pinkeye:**](media_pinkeye/intro.md) one of the "full-featured" media solutions for Drupal 8. It's goal is to provide basic media features and experience (WordPress parity) ([d.o](https://www.drupal.org/project/media_pinkeye))
  * *Latest Status:* TBA
- 
  
  
  

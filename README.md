@@ -34,7 +34,7 @@ While not all of these components are complete you can still do a lot with what'
 * [Image Effects](modules/image_effects/intro.md)
 * [Image Widget Crop](modules/image_widget_crop/intro.md)
 * [Media Entity](modules/media_entity/intro.md)
-* [Media Pinkeye](modules/media_pinkeye/intro.md)
+* [Media](modules/media/intro.md)
 * [URL Embed](modules/url_embed/intro.md)
 
 
