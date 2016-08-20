@@ -54,4 +54,5 @@
         * [Adding media items](modules/media/adding-media-items.md)
         * [Configuration](modules/media/configuration.md)
         * [Embedding media](modules/media/embedding-media.md)
+        * [Media entity browsers](modules/media/media-entity-browsers.md)
 
