@@ -1,6 +1,6 @@
 # Media entity browsers
 
-Media module uses [entity\_browser](/modules/entity_browser/intro.md) to manage media select modals. List of the available entity browsers can be found at admin\/config\/content\/entity\_browser. By default the media module comes with three entity browsers:
+Media module uses [entity\_browser](/modules/entity_browser/intro.md) to manage media select modals. List of the available entity browsers can be found at admin/config/content/entity\_browser. By default the media module comes with three entity browsers:
 
 * **Gallery media library:** It provides an entity browser to select media items for creating a new gallery.
 * **Media embed:** It provides an entity browser for selecting media files to embed in the wysiwyg editor.

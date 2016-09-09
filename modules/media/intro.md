@@ -43,7 +43,7 @@ We use Github pull request workflow. In order to contribute to the module please
 
 ## Maintainers
 
-* Janez Urevc \([@slashrsm](https://github.com/slashrsm)\) [https:\/\/drupal.org\/user\/744628](https://drupal.org/user/744628)
-* Tadej Baša \([@paranojik](https://github.com/paranojik)\) [https:\/\/www.drupal.org\/u\/paranojik](https://www.drupal.org/u/paranojik)
-* Vijay Nandwani \([@isthegeek](https://github.com/isthegeek)\) [https:\/\/www.drupal.org\/u\/royal121](https://www.drupal.org/u/royal121)
+* Janez Urevc \([@slashrsm](https://github.com/slashrsm)\) [https://drupal.org/user/744628](https://drupal.org/user/744628)
+* Tadej Baša \([@paranojik](https://github.com/paranojik)\) [https://www.drupal.org/u/paranojik](https://www.drupal.org/u/paranojik)
+* Vijay Nandwani \([@isthegeek](https://github.com/isthegeek)\) [https://www.drupal.org/u/royal121](https://www.drupal.org/u/royal121)
 

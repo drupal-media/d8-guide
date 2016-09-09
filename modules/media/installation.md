@@ -39,13 +39,13 @@ Now that the media module is enabled, you can start using its features.
 
 ### Global Media library
 
-Visit admin\/content\/media to access the global media library. Here you would be able to filter, sort and see through the media items uploaded by all the users of your site. You can easily add more items by clicking on the "Add media button" above the filters.
+Visit admin/content/media to access the global media library. Here you would be able to filter, sort and see through the media items uploaded by all the users of your site. You can easily add more items by clicking on the "Add media button" above the filters.
 
 ![](/modules/media/media_library.jpg)
 
 ### User media library
 
-To access the media items uploaded by any user, simply visit the url user\/USER\_ID\/media. For example, to access the media items by a user with user id 1, visit user\/1\/media.
+To access the media items uploaded by any user, simply visit the url user/USER\_ID/media. For example, to access the media items by a user with user id 1, visit user/1/media.
 
 ![](/modules/media/user_media_library.jpg)
 
